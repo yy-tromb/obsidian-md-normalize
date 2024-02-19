@@ -1,5 +1,5 @@
 # obsidian-md-normalize
 Convert obsidian type markdown to normal markdown
 ## Features
-### fix picture embeded ( not implements now )
+### Fix picture embeded ( not implements now )
 In obsidian markdown, it is `![[path]]`. this tool replace this `![path]`
