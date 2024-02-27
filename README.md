@@ -1,5 +1,5 @@
 # obsidian-md-normalize
-Convert obsidian type markdown to normal markdown
+Convert obsidian type markdown to normal markdown ***For me***
 ## Features
 
 ### Fix picture embeded ( not implements now )
