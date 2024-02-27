@@ -4,9 +4,6 @@ use std::io::prelude::*;
 
 fn main() {
     let args: Vec<String> = std::env::args().collect();
-    "hoge
-    "
-    .red();
     let target_md_paths = if args.len() > 1 {
         &args[1..]
     } else {
