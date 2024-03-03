@@ -4,7 +4,7 @@ Convert obsidian type markdown to normal markdown ***For me***
 
 ### Fix picture embeded  
 In obsidian markdown, it is `![[path]]`. This tool replace it `![](path)`  
-This is written `<img />` in HTML.  
+This is written `<img src="path" />` in HTML.  
 Target picture file extentions are "jpeg", "jpg", "png", "gif", "bmp", "webp", "tiff", "apng".  
 You will be able to add some picture extentions. I don't implement now.  
 
