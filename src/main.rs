@@ -127,7 +127,7 @@ fn fix_new_line(contents: &str) -> String {
 }
 
 fn fix_picture_embeded(contents: &str) -> String {
-    let regex = format!(r"!\[\[(.+.[{}])\]\]", format_picture_extentions(None));
+    let regex = format!(r"!\[\[(.+\.[{}])\]\]", format_picture_extentions(None));
     let regex = Regex::new(&regex).unwrap();
     regex.replace_all(contents, "![]($1)").to_string()
 }
